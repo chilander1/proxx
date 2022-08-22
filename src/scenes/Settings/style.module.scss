@@ -1,0 +1,18 @@
+.wrap {
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+
+}
+
+.size{
+    display: flex;
+    justify-content: space-between;
+
+    &>div {
+         width: calc(50% - 15px);
+    }
+       
+}

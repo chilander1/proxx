@@ -1,0 +1,29 @@
+.wrap{
+    padding: 0 50px 50px 50px;
+    overflow: auto;
+    box-sizing: border-boxs;
+}
+
+.board {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    >div{
+    width: 200px;
+    margin: 0 10px
+    }
+}
+
+.disabled {
+    pointer-events: none;
+}
