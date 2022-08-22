@@ -22,7 +22,7 @@ const BoardCell = ({
       onDemine(index);
     }
   };
-  console.log(index, index, adjacentBlackHoles, "render");
+
   return (
     <div
       className={clsx(styles.cell, {
